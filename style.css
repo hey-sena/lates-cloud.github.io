@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: rgb(46, 46, 46);
+}
+h2{
+    text-align: left;
+    font-size: 20px;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+.glbtn:hover{
+    background-color: rgba(155, 155, 155, 0.411);
+}
+.glbtn{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    transition: 0.3s;
+	cursor: pointer;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+.glbtn-red{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 58, 58);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    transition: 0.3s;
+	cursor: pointer;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+.glbtn-red:hover{
+    background-color: rgba(155, 155, 155, 0.411);
+}
+.box{
+    background: linear-gradient(
+        255deg,
+        #b1b1b1,
+        #8f8f8f
+        );
+    padding: 25px;
+    border-radius: 20px;
+}
+.box2{
+    background: linear-gradient(
+        255deg,
+        #0e0e0e,
+        #242424
+        );
+    padding: 10px;
+}
